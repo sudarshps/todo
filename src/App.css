@@ -1,0 +1,149 @@
+.container{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.heading{
+   padding: 30px;
+   font-size: 30px;
+}
+
+.todoname{
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   color: rgb(22, 208, 60);
+}
+
+.matename{
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   color: rgb(238, 215, 152);
+}
+
+.todostatus{
+   margin: 20px;
+   border: 1px solid rgb(238, 215, 152);
+   border-radius: 15px;
+   height: 120px;
+   width: 300px;
+   align-items: center;
+
+}
+
+.statusname{
+   color: rgb(238, 215, 152);
+}
+
+.statuscount{
+   border: 1px solid rgb(22, 208, 60);
+   border-radius: 100px;
+   height: 80px;
+   width: 80px;
+   background-color: rgb(22, 208, 60);
+   padding-left: 17px;
+   padding-top: 17px;
+}
+
+.input{
+   background-color: rgb(39, 42, 42);
+   border-radius: 15px;
+   border-color: rgb(238, 215, 152);
+   border: 0px;
+   width: 22%;
+   margin-right: 20px;
+}
+.input::placeholder{
+   color: rgb(186, 171, 132);
+   font-size: 14px;
+  text-align: center;
+}
+
+.input:focus{
+   color: rgb(238, 215, 152);
+}
+
+.addBtn{
+   font-size: 30px;
+   color: rgb(22, 208, 60);
+   cursor: pointer;
+}
+
+.todo-list{
+   margin: 50px;
+   
+}
+
+.todo{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+}
+
+.dltBtn{
+   cursor: pointer;
+   color: rgb(178, 9, 9);
+   font-size: 20px;
+   margin-left: 10px;
+}
+
+.editBtn{
+   cursor: pointer;
+   color: rgb(238, 215, 152);
+   font-size: 20px;
+   margin-left: 10px;
+}
+
+.checkbox{
+   -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 1px solid rgb(178, 9, 9);
+  border-radius: 50%;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  margin-right: 10px;
+}
+
+.checkbox:checked{
+   background-color: rgb(10, 238, 10);
+   border-color: rgb(10, 238, 10);
+}
+
+.list{
+   border: 1px solid rgb(238, 215, 152);
+   background-color: rgb(39, 42, 42);
+   border-radius: 15px;
+   font-size: larger;
+   width: 300px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 10px;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   height: 50px;
+}
+
+
+
+.text{
+   padding: 10px;
+
+  color:  rgb(238, 215, 152);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+
+.completed{
+   text-decoration: line-through;
+   color: rgb(178, 9, 9);
+}
+
+.counttext{
+   color: rgb(33, 35, 35);
+   font-size: 30px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
